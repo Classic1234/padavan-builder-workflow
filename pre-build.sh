@@ -4,3 +4,5 @@ chmod +x rt-n56u-mt7621_cpufreq.sh
 chmod +x rt-n56u-mt7621_set_cpufreq.sh
 sh rt-n56u-mt7621_cpufreq.sh
 sh rt-n56u-mt7621_set_cpufreq.sh 1100
+/clear_tree
+./build_firmware
