@@ -15,7 +15,7 @@ wget -q https://raw.githubusercontent.com/mitchamador/rt-n56u/master/rt-n56u-mt7
 ./start.sh
 
 cd /opt/rt-n56u
-wget -q https://raw.githubusercontent.com/mitchamador/rt-n56u/master/rt-n56u-mt7621_set_cpufreq.sh -O - | sudo bash -s -- 1100
+wget -q https://raw.githubusercontent.com/mitchamador/rt-n56u/master/rt-n56u-mt7621_set_cpufreq.sh -O - | bash -s -- 1100
 
 cd /opt/rt-n56u/toolchain-mipsel
 ./clean_sources
